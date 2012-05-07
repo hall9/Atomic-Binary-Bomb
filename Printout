@@ -1,3 +1,108 @@
+linux2[27]% strings bomb
+/lib/ld-linux.so.2
+__gmon_start__
+libc.so.6
+_IO_stdin_used
+socket
+cuserid
+fflush
+strcpy
+exit
+sprintf
+fopen
+tempnam
+connect
+signal
+puts
+stdin
+strftime
+fgets
+memset
+stdout
+fclose
+__strtol_internal
+strcasecmp
+getenv
+__ctype_b_loc
+sscanf
+system
+gethostbyname
+gethostname
+bcopy
+localtime
+fprintf
+sleep
+__libc_start_main
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.1.2
+GLIBC_2.3
+GLIBC_2.1
+GLIBC_2.0
+PTRh
+QVhd
+<[^_]
+0[^]
+[^_]
+nobof
+[^_]
+P[^]
+[^_]
+%s: Error: Couldn't open %s
+Usage: %s [<input_file>]
+That's number 2.  Keep going!
+Halfway there!
+Good work!  On to the next...
+Welcome to my fiendish little bomb. You have 6 phases with
+which to blow yourself up. Have a nice day!
+Phase 1 defused. How about the next one?
+So you got that one.  Try this one.
+Wow! You've defused the secret stage!
+O Romeo, Romeo, wherefore art thou Romeo?
+pickle
+ctgrsbdenpuhkoliInvalid phase%s
+submit
+defused
+exploded
+bomb-header:%s:%d:%s:%s:%d
+bomb-string:%s:%d:%s:%d:%s
+BombLabS12
+%s %s %s
+ERROR: fclose(tempFile) error
+ERROR: notification error
+Message sent to instructor
+%d %s
+TheBardofAvon
+BOOM!!!
+The bomb has blown up.
+%d %d %d %d %d %d
+Error: Premature EOF on stdin
+GRADE_BOMB
+Error: Input line too long
+Well...
+OK. :-)
+Bad host (1).
+Bad host (2).
+Bad host (3).
+Bad host (4)
+www.google.com
+Bad host (5).
+linux1.gl.umbc.edu
+linux2.gl.umbc.edu
+linux3.gl.umbc.edu
+ite209-pc-01.cs.umbc.edu
+Error:  Couldn't open file for mail composition
+Subject: Bomb notification %s
+/afs/umbc.edu/users/c/m/cmsc313/pub/cmsc313_send.py
+Curses, you've found the secret phase!
+But finding it and solving it are quite different...
+Congratulations! You've defused the bomb!
+Your instructor has been notified and will verify your solution.
+Your instructor has been notified.
+So you think you can stop the bomb with ctrl-c, do you?
+313Bomb-Spring12
+
+---------------------------------------------------------------------------------------------------
+
+
 linux2[26]% objdump bomb -d
 
 bomb:     file format elf32-i386
